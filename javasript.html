@@ -1,0 +1,106 @@
+<!document>
+<html>
+<title>
+    The Hindu
+</title>
+
+<h1>MAJOR RANGE LOSS PREDICTED FOR FLYCATCHERS</h1>
+<p id="demo"></p>
+<button onclick="myweb()">try new</button>
+<p id="demo0">please visit microsoft and microsoft!</p>
+<button onclick="Yercaud()">view here!</button>
+<script>
+    //identifier of JS -----A-Z R a-z,  $, _ ;
+    //id="demo"---->output; 
+    let x1=61e7;  //variables: var, let, const;
+    let x2=100;
+    let x3=44223e-8; //let ----ES6---block scope
+/*{ let x=32--- is cant be used, but 
+}
+{
+    var x= 32 can be used
+}*/
+    let text= "\'rawat\' and twelve others killed in \"TN\" chopper crash.Chief of Defence \
+    Staff Genaral Bibin Rawat,his wife a helicoptor crashed in to a heavily wooded area of conoor ghat\\ in the Nilgiri."
+    let x="army";
+    let y= new String ("army");
+    /* tostring() methode is convert a number to a string, toexponential() no of digit behind the decimal point , tofixed()mthd is perfect
+  toprecision() methode is specified length , valueof() method is returns a number as a number , number() method converts a var to no 
+  parseInt() method only the 1st number is returned also parsefloat() butinclude decimal no.  ,MAX_VALUE;MIN_VALUE; 
+  */
+    let str = "ooty, conoor, katteri, hills"  //var seperated by comma;
+    let text2 ="heavy";
+    let text3 = " vehicles";                   //charAt specified a index| charCodeAt give position in a string;
+    let text4 = text2.concat(" ",text3);
+    let text6 = "9";
+    let text7 = "cloth";  //typeof .... find type of js variables.
+    //strings: "fjgjgk \"gfjhg\"jgiuuhgiucdr" or single quote
+    const myArr = text7.split("");    /*const block scope--can create constant array, change element[] , add an element(.push),change a property
+     ,and add a property  , similar to let    */
+    text7 = " ";                                       //split("")
+    for(let i=0; i<myArr.length; i++){
+        text7+= myArr[i]+"<br>"
+    }
+    const friends= ["kedi","chan", "gee","divi","dhan","anan","kish"];    /*array.isarray(), instanceof,------sort()--sorts an array alphabetically
+    join() method joins array elements into a strings, pop() method  removes the last elemant,shift,,unshift ----splice() method adds new elements
+  in array and also use to remove; reverse() reverse the elements an array; math.random to sort the array in the random order*/
+    let pappa= friends.length;
+
+    let text9 ="<ul>";
+    for (let i=0; i<pappa; i++){
+text9 += "<li>" + friends[i]+ "<li>";
+    }
+    
+    text9 +="</ul>"
+    let firstname = "mattur";
+    let lastname = "dam";
+    let text8 = `visit ${firstname},${lastname}`;
+function kelvin (k) {
+    return (44/66)*(k+100);
+}
+let bird = {name:"right flycatcher", type:"catcher", color:"red"};
+let mynumber= 2;
+let txt ="";                     //infinity is returned ..... execute untill infinity --- NaM ,infinity is a number
+while (mynumber !=Infinity){
+    mynumber= mynumber * mynumber;
+    txt = txt+ mynumber+"<br>";
+}
+function myweb(){                         /* function is a block code designed to perform a particular task....(para1.para2,....) 
+:define the code once, and use it many times */
+    let text1= document.getElementById("demo0").innerHTML;
+
+    document.getElementById("demo0").innerHTML=                     //new` the var create an object
+
+  text1.replace("microsoft", "google") + text1.toUpperCase() ; 
+}
+function Yercaud(){
+    let text5 = "        Hello viewers!       ";
+    alert(text5.trim());                                 //trim remove the white space
+}
+/*operators___ +(plus),  -(minus), *(mulply),/(divi),=(assign) , **(expo) , %(madu),++(incri),--(decre) , x+=y(x=x+y)
+==(equal to),  ===(equal value and equal type),?(ternary)    */
+const number1 = [60, 76, 21,,50, 20];
+    const number2 = number1.map (callbackfunction);
+    //map() methode use to multiply  values the no`s / filter methode (return value >18),/ reduce - methode sum no in array
+document.getElementById("demo").innerHTML= x1+ "<br>" +x2 + "<br>" + x3 + "<br>"+ typeof "" +"<br>" +
+typeof 6 + "<br>" + typeof "bava"+ "<br>" + typeof birds +"<br>" + kelvin(7) + "<br>" + bird.type+" are very danger\
+ and most color appeared " + bird.color + "<br>"+text+ text.length +"<br>"+ typeof x + "<br>"+ typeof y +"<br>"+(x!==y) +
+  "<br>"+ str.slice(6,12) + "<br>"+text4 +"<br>"+ text6.padStart(5,2)+text6.padEnd (5,0) +"<br>"+text3.charAt(1)+"<br>"+text7+"<br>"+
+   str.indexOf("conoor")+"<br>"+ str.lastIndexOf("hills")+"<br>"+text+"<br>"+txt+"<br>"+Number(true)+"<br>"+Number(false)+"<br>"+Number("10")+"<br>"+
+   Number("10.33")+"<br>"+Number("10 , 33")+"<br>"+Number("10  33")+"<br>"+Number("bava") +"<br>"+text9 +"<br>"+number2;
+
+// outputs: innerHTML ,   document.write(). ,    window.alert(),    console.log():
+// instead of document.getelementbyid("demo")->>>> this
+
+    function callbackfunction(value, index, array){
+      return value * 3;  
+    }
+</script>
+<body>
+<p id="demo2"></p>
+<button onclick="document.getElementById ('demo2').innerHTML=Date()"> the time is? </button> "<br>"
+<button onclick="this.innerHTML=Date()"> the time is? </button>
+</body>
+
+
+</html>
