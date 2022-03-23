@@ -1,0 +1,61 @@
+.App {
+    text-align: center;
+}
+
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:gray;
+    line-height: 1.5;
+    font-size: 0.875rem;
+}
+
+article{
+    display: flex;
+}
+ul{
+    list-style-type: none;
+}
+
+h2{
+    letter-spacing:2px ;
+    text-transform: capitalize;
+    color: brown;
+    text-align: center;
+    font-size: 2rem;
+    text-decoration-line: underline;
+}
+h4{
+    text-transform: capitalize;
+    color: rgb(160, 41, 65);
+    text-shadow: black;
+    display:inline-flex;
+border-bottom:2px solid black;
+}
+button{
+    text-transform: capitalize;
+text-align: center;
+background: none;
+font-size: 1rem;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+color: rgb(247, 170, 55);
+border: none;
+padding: 2rem;
+}
+img{
+    height: 250px;
+    width: 350px;
+    border-radius: 2rem;
+    border: 2px solid pink;
+}
+main{
+    padding: 1rem;
+    display: flex;
+
+}
+.people.length{
+   size:50px;
+   display: flex;
+   padding: 0.5rem;
+   background-color: blueviolet;
+
+}
